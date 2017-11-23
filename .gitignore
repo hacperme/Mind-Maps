@@ -1,8 +1,6 @@
-
+#忽略 xmind 产生的文件
 *.xml
-数据结构与算法知识整理/xmind/configuration/org.eclipse.core.runtime/.manager/.fileTableLock
 *.xmi
-数据结构与算法知识整理/xmind/configuration/org.eclipse.osgi/504/data/SCR
 *.timestamps
 *.jar
 *.prefs
@@ -11,12 +9,10 @@
 *.properties
 *.201709290120
 *.xbkmap
-数据结构与算法知识整理/xmind/workspace/.metadata/.plugins/org.xmind.ui.mindmap/.thumbnailHistory/cf2cc37f-66f2-498e-a909-f561aae74613
-数据结构与算法知识整理/xmind/configuration/org.eclipse.osgi/714/data/timestamps975068543
-*.gz
-数据结构与算法知识整理/xmind/workspace/.metadata/.plugins/net.xmind.verify/.poem37
-数据结构与算法知识整理/xmind/p2/org.eclipse.equinox.p2.engine/profileRegistry/XMindProfile.profile/.lock
-数据结构与算法知识整理/xmind/workspace/.metadata/.plugins/net.xmind.workbench/.freeCreateOrOpenWorkbookCount
-*.xbkinfo
-数据结构与算法知识整理/xmind/workspace/.metadata/.log
-*.version
+*.instance
+
+#忽略 xmind 产生的文件夹
+configuration/
+workspace/
+temp/
+p2/
